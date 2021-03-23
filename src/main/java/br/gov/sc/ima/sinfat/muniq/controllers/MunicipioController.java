@@ -1,4 +1,4 @@
-package br.gov.sc.ima.sinfat.commons.controllers;
+package br.gov.sc.ima.sinfat.muniq.controllers;
 
 import java.util.List;
 import java.util.Optional;
@@ -15,12 +15,12 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
 
-import br.gov.sc.ima.sinfat.commons.domain.Municipalizacao;
-import br.gov.sc.ima.sinfat.commons.domain.Municipio;
-import br.gov.sc.ima.sinfat.commons.repositories.MunicipalizacaoRepository;
-import br.gov.sc.ima.sinfat.commons.repositories.MunicipioRepository;
-import br.gov.sc.ima.sinfat.dtos.MunicipalizacaoDto;
-import br.gov.sc.ima.sinfat.enums.EstadoEnum;
+import br.gov.sc.ima.sinfat.muniq.domain.Municipalizacao;
+import br.gov.sc.ima.sinfat.muniq.domain.Municipio;
+import br.gov.sc.ima.sinfat.muniq.dtos.MunicipalizacaoDto;
+import br.gov.sc.ima.sinfat.muniq.enums.EstadoEnum;
+import br.gov.sc.ima.sinfat.muniq.repositories.MunicipalizacaoRepository;
+import br.gov.sc.ima.sinfat.muniq.repositories.MunicipioRepository;
 import io.quarkus.hibernate.orm.panache.PanacheQuery;
 import io.quarkus.panache.common.Page;
 import io.quarkus.panache.common.Sort;

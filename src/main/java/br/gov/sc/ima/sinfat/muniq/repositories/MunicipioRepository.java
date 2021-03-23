@@ -1,11 +1,11 @@
-package br.gov.sc.ima.sinfat.commons.repositories;
+package br.gov.sc.ima.sinfat.muniq.repositories;
 
 import java.util.Optional;
 
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Repository;
 
-import br.gov.sc.ima.sinfat.commons.domain.Municipio;
+import br.gov.sc.ima.sinfat.muniq.domain.Municipio;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 
 @Repository

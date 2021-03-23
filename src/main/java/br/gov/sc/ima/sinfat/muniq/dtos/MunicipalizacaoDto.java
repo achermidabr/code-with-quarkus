@@ -1,8 +1,8 @@
-package br.gov.sc.ima.sinfat.dtos;
+package br.gov.sc.ima.sinfat.muniq.dtos;
 
 import java.time.LocalDate;
 
-import br.gov.sc.ima.sinfat.enums.EstadoEnum;
+import br.gov.sc.ima.sinfat.muniq.enums.EstadoEnum;
 
 public class MunicipalizacaoDto  implements Comparable<MunicipalizacaoDto>{
 		private Integer municCodigo;

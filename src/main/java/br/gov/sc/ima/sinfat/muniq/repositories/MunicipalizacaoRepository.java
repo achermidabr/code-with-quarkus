@@ -1,11 +1,11 @@
-package br.gov.sc.ima.sinfat.commons.repositories;
+package br.gov.sc.ima.sinfat.muniq.repositories;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Repository;
 
-import br.gov.sc.ima.sinfat.commons.domain.Municipalizacao;
+import br.gov.sc.ima.sinfat.muniq.domain.Municipalizacao;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
 import io.quarkus.panache.common.Sort;
 
